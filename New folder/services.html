@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xizmatlar - Nexus AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="glow-orb orb-2" style="top: 0; right: 0;"></div>
+    
+    <nav class="navbar solid">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="ph-fill ph-hexagon"></i>
+                Nexus<span class="accent">AI</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="about.html">Biz haqimizda</a></li>
+                <li><a href="services.html" class="active">Xizmatlar</a></li>
+                <li><a href="contact.html" class="btn btn-outline">Bog'lanish</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="audioToggle" class="theme-toggle-btn" title="Ovozni yoqish/o'chirish">
+                    <i class="ph-fill ph-speaker-slash"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="inner-page">
+        <header class="page-header container text-center">
+            <h1>Platforma <span class="accent-glow">Xizmatlari</span></h1>
+            <p>Siz uchun maxsus ishlab chiqilgan yuqori aniqlikdagi yechimlar</p>
+        </header>
+
+        <section class="container services-detailed scroll-reveal">
+            
+            <div class="service-row">
+                <div class="service-content">
+                    <div class="badge">AI Modellar</div>
+                    <h2>Predictive & <span class="accent">Generative AI</span></h2>
+                    <p class="text-muted mb-4">Neyron tarmoqlari nafaqat ma'lumotlarni analiz qiladi, balki kontent yaratish va savdoni oldindan bashorat qilish qobiliyatiga ham ega. Tabiiy tilni qayta ishlash (NLP) va Computer Vision funksiyalaridan foydalaning.</p>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check accent"></i> Chatbot va Avvalgi mijozlarga mos mijozlar bilan muloqot</li>
+                        <li><i class="ph ph-check accent"></i> Matn va rasm generatsiyasi orqali marketing resurslari</li>
+                        <li><i class="ph ph-check accent"></i> Bir necha soniyada katta axborot bazasidan ma'lumot topish</li>
+                    </ul>
+                </div>
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800" alt="AI Network" class="rounded-img block-glow border-accent">
+                </div>
+            </div>
+
+            <div class="service-row reverse mt-6">
+                <div class="service-content">
+                    <div class="badge">Cyber Security</div>
+                    <h2>Zero-Trust <span class="accent">Himoya Tizimi</span></h2>
+                    <p class="text-muted mb-4">Hech bir foydalanuvchiga yoki qurilmaga - xoh u tarmog'ingiz ichida yoki tashqarisida bo'lsin - doimiy ishonch bildirilmadi. Faqat shaxsi tasdiqlangan qurilmalar sizning serverlaringizga ulana oladi.</p>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check accent"></i> Penetration Testlar o'tkazish (Qizil jamoa)</li>
+                        <li><i class="ph ph-check accent"></i> Haqiqiy vaqtda zararli fayllarga qarshi mudofaa (EDR/XDR)</li>
+                        <li><i class="ph ph-check accent"></i> Ishchilarga kiber xavfsizlik darslari va fishing simulyatsiyalari</li>
+                    </ul>
+                </div>
+                <div class="service-visual">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800" alt="Cyber Security Server" class="rounded-img block-glow border-accent">
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section mt-5">
+            <div class="container cta-container">
+                <h2>Yechimlarni test qilib ko'ring</h2>
+                <p>Ushbu vositalarni sizning ma'lumotlaringizda qanday ishlashini amalda ko'rsatamiz.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary large">Demo buyurtma qilish</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-bottom">
+            <span>© 2026 Nexus AI. Barcha huquqlar himoyalangan.</span>
+            <div class="footer-legal">
+                <a href="index.html">Bosh sahifaga qaytish</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Telegram Widget -->
+    <a href="https://t.me/Kaasimoov_09" target="_blank" class="floating-chat-widget">
+        <i class="ph-fill ph-telegram-logo"></i>
+    </a>
+
+    <!-- Audio Elements -->
+    <audio id="bgMusic" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-tech-house-vibes-130.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="clickSound">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-modern-technology-select-3124.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

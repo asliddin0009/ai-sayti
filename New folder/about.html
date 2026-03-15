@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biz haqimizda - Nexus AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="glow-orb orb-1"></div>
+    
+    <nav class="navbar solid">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="ph-fill ph-hexagon"></i>
+                Nexus<span class="accent">AI</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="about.html" class="active">Biz haqimizda</a></li>
+                <li><a href="services.html">Xizmatlar</a></li>
+                <li><a href="contact.html" class="btn btn-outline">Bog'lanish</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="audioToggle" class="theme-toggle-btn" title="Ovozni yoqish/o'chirish">
+                    <i class="ph-fill ph-speaker-slash"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="inner-page">
+        <header class="page-header container">
+            <h1>Bizning <span class="accent-glow">Tariximiz</span></h1>
+            <p>Kelajakni yaratuvchilar jamoasi bilan tanishing</p>
+        </header>
+
+        <section class="container story-section scroll-reveal">
+            <div class="grid-2">
+                <div>
+                    <h2 class="mb-3">Qanday boshlangan edi?</h2>
+                    <p class="text-muted mb-4">Nexus AI o'z faoliyatini 2021-yilda bir hovuch entuziast muhandislar va data scientist-lar guruhidan boshladi. Bizning asosiy maqsadimiz - O'rta Osiyo biznes muhitiga global standartlardagi kiberxavfsizlik va chuqur o'rganish texnologiyalarini olib kirish edi.</p>
+                    <p class="text-muted">Bugungi kunda biz turli qit'alardagi yuzlab korxonalarga kompleks texnologik xizmatlarni taqdim etmoqdamiz. Zero-trust xavfsizlik arxitekturasi orqali tarmoq himoyasini, predictive modellar orqali esa savdo hajmini oshiramiz.</p>
+                </div>
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=800" alt="Team meeting" class="rounded-img block-glow">
+                </div>
+            </div>
+        </section>
+
+        <section class="container mission-vision scroll-reveal">
+            <div class="grid-2">
+                <div class="glass-card">
+                    <div class="icon-wrapper"><i class="ph ph-target"></i></div>
+                    <h3>Missiyamiz</h3>
+                    <p class="text-muted">Kompaniyalarni byurokratiya va an'anaviy to'siqlardan qutqarib, ularning sof potensialini raqamli sun'iy intellekt vositalari bilan ro'yobga chiqarish.</p>
+                </div>
+                <div class="glass-card">
+                    <div class="icon-wrapper"><i class="ph ph-eye"></i></div>
+                    <h3>Vizyon</h3>
+                    <p class="text-muted">Kelajakda barcha jarayonlarni eng kam resurs sarflagan holda boshqarishga imkon beradigan universal Web 3.0 va AI ekotizimini yaratish.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section mt-5">
+            <div class="container cta-container">
+                <h2>Jamoamizga bog'laning</h2>
+                <p>Biznesingizni yanada xavfsizroq va daromadliroq qilish haqida suhbatlashamiz.</p>
+                <a href="contact.html" class="btn btn-primary large">Loyihani boshlash</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Simple footer for inner pages to save space -->
+    <footer>
+        <div class="container footer-bottom">
+            <span>© 2026 Nexus AI. Barcha huquqlar himoyalangan.</span>
+            <div class="footer-legal">
+                <a href="index.html">Bosh sahifaga qaytish</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Telegram Widget -->
+    <a href="https://t.me/Kaasimoov_09" target="_blank" class="floating-chat-widget">
+        <i class="ph-fill ph-telegram-logo"></i>
+    </a>
+
+    <!-- Audio Elements -->
+    <audio id="bgMusic" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-tech-house-vibes-130.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="clickSound">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-modern-technology-select-3124.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
