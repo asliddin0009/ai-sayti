@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bog'lanish - Nexus AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div class="glow-orb orb-1"></div>
+
+    <nav class="navbar solid">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="ph-fill ph-hexagon"></i>
+                Nexus<span class="accent">AI</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="about.html">Biz haqimizda</a></li>
+                <li><a href="services.html">Xizmatlar</a></li>
+                <li><a href="contact.html" class="btn btn-outline active">Bog'lanish</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="audioToggle" class="theme-toggle-btn" title="Ovozni yoqish/o'chirish">
+                    <i class="ph-fill ph-speaker-slash"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="inner-page">
+        <header class="page-header container text-center">
+            <h1>Biz bilan <span class="accent-glow">Bog'laning</span></h1>
+            <p>Aloqa uchun ma'lumotlaringizni qoldiring, mutaxassislarimiz aloqaga chiqishadi</p>
+        </header>
+
+        <section class="container contact-section scroll-reveal">
+            <div class="grid-2">
+                <div class="contact-info-boxes">
+                    <div class="glass-card mb-4">
+                        <div class="icon-wrapper"><i class="ph ph-map-pin"></i></div>
+                        <h3>Manzil</h3>
+                        <p class="text-muted">100011, Toshkent, O'zbekiston. IT Park hududi, B blok, 5-qavat.</p>
+                    </div>
+                    <div class="glass-card mb-4">
+                        <div class="icon-wrapper"><i class="ph ph-phone"></i></div>
+                        <h3>Telefon</h3>
+                        <p class="text-muted">+998 (99) 365-22-14<br>Du - Juma, 09:00 dan 18:00 gacha</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="icon-wrapper"><i class="ph ph-envelope-simple"></i></div>
+                        <h3>Email</h3>
+                        <p class="text-muted">asliddin2214as@gmail.com<br>support@nexusai.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper glass-card">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label>Ismingiz</label>
+                            <input type="text" placeholder="Ism Familiya" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email manzilingiz</label>
+                            <input type="email" placeholder="mail@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Mavzu</label>
+                            <select required>
+                                <option value="">Tanlang...</option>
+                                <option value="ai">Sun'iy Intellekt Integratsiyasi</option>
+                                <option value="sec">Kiberxavfsizlik Auditi</option>
+                                <option value="other">Boshqa masalalar</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Xabaringiz</label>
+                            <textarea rows="5" placeholder="Qanday yordam bera olamiz?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Xabarni yuborish</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-bottom">
+            <span>© 2026 Nexus AI. Barcha huquqlar himoyalangan.</span>
+            <div class="footer-legal">
+                <a href="index.html">Bosh sahifaga qaytish</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Telegram Widget -->
+    <a href="https://t.me/Kaasimoov_09" target="_blank" class="floating-chat-widget">
+        <i class="ph-fill ph-telegram-logo"></i>
+    </a>
+
+    <!-- Audio Elements -->
+    <audio id="bgMusic" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-tech-house-vibes-130.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="clickSound">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-modern-technology-select-3124.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

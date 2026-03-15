@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus AI - Kelajak Texnologiyalari</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="ph-fill ph-hexagon"></i>
+                Nexus<span class="accent">AI</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Bosh sahifa</a></li>
+                <li><a href="about.html">Biz haqimizda</a></li>
+                <li><a href="services.html">Xizmatlar</a></li>
+                <li><a href="contact.html" class="btn btn-outline">Bog'lanish</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="audioToggle" class="theme-toggle-btn" title="Ovozni yoqish/o'chirish">
+                    <i class="ph-fill ph-speaker-slash"></i>
+                </button>
+                <div class="mobile-menu-btn">
+                    <i class="ph ph-list"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="container hero-content">
+                <div class="hero-text-area">
+                    <div class="badge fade-in-up">🌟 Yangi davr texnologiyasi 3.0</div>
+                    <h1 class="hero-title fade-in-up" style="animation-delay: 0.1s">Sun'iy Intellekt Bilan <br><span class="accent-glow">Jahon Bozorini Egallang</span></h1>
+                    <p class="hero-subtitle fade-in-up" style="animation-delay: 0.2s">Korxonangiz uchun mo'ljallangan global AI platforma. Chuqur o'rganish, kiberxavfsizlik va avtomatlashtirishning mukammal uyg'unligi.</p>
+                    <div class="hero-cta fade-in-up" style="animation-delay: 0.3s">
+                        <a href="services.html" class="btn btn-primary">Xizmatlarni ko'rish <i class="ph ph-arrow-right"></i></a>
+                        <a href="contact.html" class="btn btn-secondary"><i class="ph ph-envelope-simple"></i> Bizga yozing</a>
+                    </div>
+                </div>
+                <div class="hero-visual fade-in-up" style="animation-delay: 0.4s">
+                    <div class="glass-card main-card">
+                        <div class="card-header">
+                            <i class="ph-fill ph-cpu"></i> Tizim monitoringi
+                        </div>
+                        <div class="card-body">
+                            <div class="stat-row">
+                                <span>Ma'lumotlarni qayta ishlash</span>
+                                <span class="accent">450 TB/s</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            
+                            <div class="stat-row mt-4">
+                                <span>Kiber-hujumlarning qaytarilishi</span>
+                                <span class="accent">99.99%</span>
+                            </div>
+                            <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+
+                            <div class="live-status mt-4">
+                                <div class="pulse-dot"></div> Serverlar faol
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="ph-fill ph-check-circle"></i> ISO 27001 Sertifikatlangan
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="ph-fill ph-lightning"></i> 0.5ms kechikish
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Partners Marquee -->
+        <section class="partners">
+            <div class="partners-track">
+                <div class="partner"><i class="ph-fill ph-amazon-logo"></i> AWS Partner</div>
+                <div class="partner"><i class="ph-fill ph-google-logo"></i> Google Cloud</div>
+                <div class="partner"><i class="ph-fill ph-windows-logo"></i> Microsoft Azure</div>
+                <div class="partner"><i class="ph-fill ph-slack-logo"></i> Slack Tech</div>
+                <div class="partner"><i class="ph-fill ph-stripe-logo"></i> Stripe Info</div>
+                <!-- Duplicate for infinite scroll -->
+                <div class="partner"><i class="ph-fill ph-amazon-logo"></i> AWS Partner</div>
+                <div class="partner"><i class="ph-fill ph-google-logo"></i> Google Cloud</div>
+                <div class="partner"><i class="ph-fill ph-windows-logo"></i> Microsoft Azure</div>
+                <div class="partner"><i class="ph-fill ph-slack-logo"></i> Slack Tech</div>
+                <div class="partner"><i class="ph-fill ph-stripe-logo"></i> Stripe Info</div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats container scroll-reveal">
+            <div class="stat-box">
+                <h3 class="accent glow-text">500+</h3>
+                <p>Global Mijozlar</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="accent glow-text">10B+</h3>
+                <p>Har kungi so'rovlar</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="accent glow-text">24/7</h3>
+                <p>To'xtovsiz xizmat</p>
+            </div>
+            <div class="stat-box">
+                <h3 class="accent glow-text">50+</h3>
+                <p>Mamlakatlarda faol</p>
+            </div>
+        </section>
+
+        <!-- About Intro Section -->
+        <section class="about-intro container scroll-reveal">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Cyber Security Tech" class="rounded-img block-glow">
+                </div>
+                <div class="about-content">
+                    <div class="badge">Biz haqimizda</div>
+                    <h2>Nega aynan <span class="accent">Nexus AI?</span></h2>
+                    <p>Biz an'anaviy yondashuvlardan chekinib, biznes muammolariga sun'iy intellekt yordamida innovatsion yechimlar yaratamiz. Ma'lumotlaringizni himoyalash va jarayonlarni avtomatlashtirishda eng yaxshi hamkoringiz.</p>
+                    <ul class="check-list">
+                        <li><i class="ph-fill ph-check-circle"></i> Ekspertlar jamoasi va global tajriba</li>
+                        <li><i class="ph-fill ph-check-circle"></i> Shaffof narxlar va maxsus takliflar</li>
+                        <li><i class="ph-fill ph-check-circle"></i> 100% himoyalangan bulutli infratuzilma</li>
+                    </ul>
+                    <a href="about.html" class="btn btn-outline mt-4">Batafsil o'qish</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Overview -->
+        <section class="features container scroll-reveal">
+            <div class="section-title">
+                <h2>Asosiy Yo'nalishlarimiz</h2>
+                <p>Biznesingiz ehtiyojlariga moslashtirilgan aqlli xizmatlar</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="icon-wrapper"><i class="ph ph-brain"></i></div>
+                    <h3>Predictive AI</h3>
+                    <p>Mijozlar xulq-atvorini oldindan bashorat qiling va to'g'ri strategiya ishlab chiqing. Big Data orqali aniq ko'rsatkichlar.</p>
+                    <a href="services.html" class="card-link">Batafsil <i class="ph ph-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper"><i class="ph ph-shield-check"></i></div>
+                    <h3>Zero-Trust Himoya</h3>
+                    <p>Hech narsaga ishonmang, hammasini tekshiring. Korporativ tarmoqlar uchun ilg'or kibermudofaa tizimlari.</p>
+                    <a href="services.html" class="card-link">Batafsil <i class="ph ph-arrow-right"></i></a>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-wrapper"><i class="ph ph-robot"></i></div>
+                    <h3>RPA Avtomatlashtirish</h3>
+                    <p>Takrorlanuvchi jarayonlarni robotlashtiring va xodimlaringiz vaqtini muhimroq ishlarga yo'naltiring.</p>
+                    <a href="services.html" class="card-link">Batafsil <i class="ph ph-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="services.html" class="btn btn-secondary">Barcha xizmatlarni ko'rish</a>
+            </div>
+        </section>
+
+        <!-- How it works (Timeline) -->
+        <section class="how-it-works container scroll-reveal">
+            <div class="section-title">
+                <h2>Qanday ishlaymiz?</h2>
+                <p>Hamkorligimizning qulay va shaffof bosqichlari</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">1</div>
+                    <div class="timeline-content">
+                        <h3>Tahlil va Audit</h3>
+                        <p>Biznesingizning hozirgi holatini chuqur tahlil qilamiz va bo'shliqlarni aniqlaymiz.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">2</div>
+                    <div class="timeline-content">
+                        <h3>Strategiya</h3>
+                        <p>Aynan siz uchun maxsus ishlab chiqilgan, iqtisodiy jihatdan samarali AI yoki xavfsizlik rejasini tuzamiz.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">3</div>
+                    <div class="timeline-content">
+                        <h3>Integratsiya</h3>
+                        <p>Tizimlarni mavjud infratuzilmangizga uzilishlarsiz va tezkor tarzda o'rnatamiz.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">4</div>
+                    <div class="timeline-content">
+                        <h3>Monitoring va Qo'llab-quvvatlash</h3>
+                        <p>Doimiy monitoring orqali tizimning benuqson ishlashini ta'minlaymiz.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials scroll-reveal">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2>Mijozlar Fikri</h2>
+                    <p>Biz bilan ishlagan yetakchi kompaniyalarning natijalari</p>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                        <p class="quote">"Nexus AI yordamida biz kiberhujumlarni 100% ga kamaytirdik. Ularning yondashuvi umuman boshqacha bo'lib chiqdi. Zo'r jamoa!"</p>
+                        <div class="author">
+                            <div class="avatar"><i class="ph-fill ph-user"></i></div>
+                            <div class="author-info">
+                                <h4>Azamat Qodirov</h4>
+                                <span>FinTech MChJ, CTO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div>
+                        <p class="quote">"Ularning Predictive AI tizimi savdolarimizni atigi 3 oy ichida 45% ga oshirdi. Juda katta texnologiyalar shunday qulay ishlashi ajoyib."</p>
+                        <div class="author">
+                            <div class="avatar"><i class="ph-fill ph-user-circle"></i></div>
+                            <div class="author-info">
+                                <h4>Malika Aliyeva</h4>
+                                <span>RetailTrade Marketolog</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing (Optional/Demo) -->
+        <section class="pricing container scroll-reveal">
+            <div class="section-title">
+                <h2>Tarif Rejalari</h2>
+                <p>Har qanday o'lchamdagi biznes uchun mos echimlar</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Startup</h3>
+                    <div class="price">$499<span>/oy</span></div>
+                    <p class="desc">Boshlang'ich loyihalar va kichik guruhlar uchun</p>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check"></i> Asosiy AI analitika</li>
+                        <li><i class="ph ph-check"></i> API orqali bog'lanish (10k so'rov)</li>
+                        <li><i class="ph ph-check"></i> Yordam xizmati (24 soatda)</li>
+                        <li class="disabled"><i class="ph ph-x"></i> Kengaytirilgan kiber-himoya</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline w-100">Tanlash</a>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Eng xaridorgir</div>
+                    <h3>Business Pro</h3>
+                    <div class="price">$1,299<span>/oy</span></div>
+                    <p class="desc">O'sayotgan va barqaror kompaniyalar uchun yechim</p>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check"></i> To'liq AI modellari</li>
+                        <li><i class="ph ph-check"></i> Cheksiz API so'rovlar</li>
+                        <li><i class="ph ph-check"></i> Zero-Trust kiber-himoya</li>
+                        <li><i class="ph ph-check"></i> 15 daqiqali VIP yordam</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary w-100">Boshlash</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Maxsus narx</div>
+                    <p class="desc">Katta hajmdagi ma'lumotlar tarmog'iga ega korporatsiyalar uchun</p>
+                    <ul class="features-list">
+                        <li><i class="ph ph-check"></i> Lokal o'rnatilgan AI serverlar</li>
+                        <li><i class="ph ph-check"></i> Shaxsiy Data Science jamoa</li>
+                        <li><i class="ph ph-check"></i> ISO Compliance auditlar</li>
+                        <li><i class="ph ph-check"></i> 24/7 on-call muhandis</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-secondary w-100">Bog'lanish</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section scroll-reveal">
+            <div class="container cta-container">
+                <h2>O'zgarishlarni bugundan boshlang</h2>
+                <p>Hoziroq bizning platformamizga qo'shiling va raqobatchilaringizdan bir qadam oldinda bo'ling. Sinov muddati mutlaqo bepul.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary large">Ekspert bilan bog'lanish</a>
+                    <a href="services.html" class="btn btn-outline large">Xizmatlarni ko'rish</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <i class="ph-fill ph-hexagon"></i>
+                    Nexus<span class="accent">AI</span>
+                </a>
+                <p>Biznesingizni keyingi bosqichga olib chiquvchi ishonchli AI va kiberxavfsizlik hamkoringiz.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ph-fill ph-telegram-logo"></i></a>
+                    <a href="#"><i class="ph-fill ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph-fill ph-linkedin-logo"></i></a>
+                    <a href="#"><i class="ph-fill ph-github-logo"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-col">
+                <h4>Kompaniya</h4>
+                <ul>
+                    <li><a href="about.html">Biz haqimizda</a></li>
+                    <li><a href="services.html">Xizmatlar</a></li>
+                    <li><a href="#">Jamoamiz</a></li>
+                    <li><a href="contact.html">Bog'lanish</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-col">
+                <h4>Yo'nalishlar</h4>
+                <ul>
+                    <li><a href="services.html">Predictive AI</a></li>
+                    <li><a href="services.html">Zero-Trust Security</a></li>
+                    <li><a href="services.html">Cloud Computing</a></li>
+                    <li><a href="services.html">Data Science</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-col">
+                <h4>Bog'lanish ma'lumotlari</h4>
+                <ul class="contact-info">
+                    <li><i class="ph-fill ph-map-pin"></i> 100011, Toshkent, O'zbekiston. IT Park</li>
+                    <li><i class="ph-fill ph-phone"></i> +998 (90) 123-45-67</li>
+                    <li><i class="ph-fill ph-envelope"></i> mail@nexusai.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <span>© 2026 Nexus AI. Barcha huquqlar himoyalangan.</span>
+            <div class="footer-legal">
+                <a href="#">Maxfiylik siyosati</a>
+                <a href="#">Foydalanish shartlari</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Telegram Widget -->
+    <a href="https://t.me/Kaasimoov_09" target="_blank" class="floating-chat-widget">
+        <i class="ph-fill ph-telegram-logo"></i>
+    </a>
+
+    <!-- Audio Elements -->
+    <audio id="bgMusic" loop>
+        <!-- A placeholder for ambient background music ( रॉयल्टी-फ्री / Royalty-free Cyberpunk Ambient ) -->
+        <source src="https://assets.mixkit.co/music/preview/mixkit-tech-house-vibes-130.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="clickSound">
+        <!-- A placeholder for a digital click sound -->
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-modern-technology-select-3124.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
